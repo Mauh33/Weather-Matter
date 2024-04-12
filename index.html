@@ -8,7 +8,124 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <div class="header-tools-bloc">
+        <div><img src="" alt="" /></div>
+        <div><img src="" alt="" /></div>
+        <div><img src="" alt="" /></div>
+        <h1></h1>
+      </div>
+      <form class="search-city-bloc" method="get">
+        <label for="search"></label>
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Search city"
+        />
+        <img src="" alt="" />
+      </form>
+    </header>
+    <main>
+      <section class="first-infos-bloc">
+        <ul>
+          <li>Today</li>
+          <li>Tomorrow</li>
+          <li>Next 7days</li>
+        </ul>
+        <button>Forecast</button>
+        <button>Air quality</button>
+        <article class="day-card">
+          <div class="day-header-card">
+            <h2></h2>
+            <p></p>
+          </div>
+          <div class="day-body-card">
+            <input type="text" autocomplete="on" />
+            <input type="text" autocomplete="on" />
+            <input type="text" autocomplete="on" />
+            <input type="text" autocomplete="on" />
+            <input type="text" autocomplete="on" />
+            <input type="text" autocomplete="on" />
+          </div>
+        </article>
+        <div class="week-planner-bloc">
+          <article class="card-day-plan">
+            <p></p>
+            <img src="" alt="" />
+            <p></p>
+          </article>
+          <article class="card-day-plan">
+            <p></p>
+            <img src="" alt="" />
+            <p></p>
+          </article>
+          <article class="card-day-plan">
+            <p></p>
+            <img src="" alt="" />
+            <p></p>
+          </article>
+          <article class="card-day-plan">
+            <p></p>
+            <img src="" alt="" />
+            <p></p>
+          </article>
+          <article class="card-day-plan">
+            <p></p>
+            <img src="" alt="" />
+            <p></p>
+          </article>
+          <article class="card-day-plan">
+            <p></p>
+            <img src="" alt="" />
+            <p></p>
+          </article>
+        </div>
+      </section>
+      <section class="rain-probability-planner">
+        <div class="theme-light-bloc">
+          <label for=""></label>
+          <input type="checkbox" name="" id="" />
+        </div>
+        <div class="avatar-bloc"><img src="" alt="" /></div>
+        <h2>Chance Of Rain</h2>
+        <canvas></canvas>
+        <div class="others-cities-rain-bloc">
+          <h2>Other Cities</h2>
+          <article class="rain-card">
+            <h3>China</h3>
+            <p>Beijing</p>
+            <p></p>
+          </article>
+          <article class="rain-card">
+            <h3>US</h3>
+            <p>California</p>
+            <p></p>
+          </article>
+          <article class="rain-card">
+            <h3>Ireland</h3>
+            <p>Dublin</p>
+            <p></p>
+          </article>
+          <article class="rain-card">
+            <h3>Canada</h3>
+            <p>Charlottetown</p>
+            <p></p>
+          </article>
+        </div>
+      </section>
+      <section class="today-overview-bloc">
+        <article class="card-overview"></article>
+        <article class="card-overview"></article>
+        <article class="card-overview"></article>
+        <article class="card-overview"></article>
+        <div class="map-bloc">
+          <img src="" alt="" />
+          <p>Explore global map of wind weather and ocean condition</p>
+          <button>GET STARTED</button>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
